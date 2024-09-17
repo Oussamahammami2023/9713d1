@@ -158,8 +158,8 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "Médenine", "link": "https://example.com/groupe23", "subtitle": "+0" },
       { "name": "Tataouine", "link": "https://example.com/groupe24", "subtitle": "+0" }
     ],
-    Équipement industriel: [
-      { "name": "Tunis", "link": "https://example.com/groupe1", "subtitle": "+0" },
+    Équipement : [
+      { "name": "Tunis", "link": "https://exaroupe1", "subtitle": "+0" },
       { "name": "Ariana", "link": "https://example.com/groupe2", "subtitle": "+0" },
       { "name": "Manouba", "link": "https://example.com/groupe3", "subtitle": "+0" },
       { "name": "Ben Arous", "link": "https://example.com/groupe4", "subtitle": "+0" },
