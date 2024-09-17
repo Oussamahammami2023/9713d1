@@ -33,6 +33,7 @@ body {
   cursor: pointer;
   margin-bottom: -3px;
   margin-left: auto; /* دفع الأيقونة إلى اليمين */
+      margin-right :4px;
 }
    container {
          text-align: center;
