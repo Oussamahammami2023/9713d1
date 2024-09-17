@@ -36,7 +36,7 @@ header {
     margin-left: auto;
     margin-right: 4px;
 }
- .container {
+ .container-sb {
       padding-left: 0.11cm;
       padding-right: 0.1cm;
       border-top-left-radius: 22px; /* إضافة زاوية دائرية للحافة العلوية اليسرى */
