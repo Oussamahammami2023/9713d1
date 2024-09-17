@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "Médenine", "link": "https://example.com/groupe23", "subtitle": "+0" },
       { "name": "Tataouine", "link": "https://example.com/groupe24", "subtitle": "+0" }
     ],
-    Beauté: [
+    Santé & Beauté: [
       { "name": "Tunis", "link": "https://example.com/groupe1", "subtitle": "+0" },
       { "name": "Ariana", "link": "https://example.com/groupe2", "subtitle": "+0" },
       { "name": "Manouba", "link": "https://example.com/groupe3", "subtitle": "+0" },
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "Médenine", "link": "https://example.com/groupe23", "subtitle": "+0" },
       { "name": "Tataouine", "link": "https://example.com/groupe24", "subtitle": "+0" }
     ],
-    Meuble: [
+    Meuble & Décoration: [
       { "name": "Tunis", "link": "https://example.com/groupe1", "subtitle": "+0" },
       { "name": "Ariana", "link": "https://example.com/groupe2", "subtitle": "+0" },
       { "name": "Manouba", "link": "https://example.com/groupe3", "subtitle": "+0" },
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "Médenine", "link": "https://example.com/groupe23", "subtitle": "+0" },
       { "name": "Tataouine", "link": "https://example.com/groupe24", "subtitle": "+0" }
     ],
-  Cuisine: [
+  Cuisine & Électroménager: [
       { "name": "Tunis", "link": "https://example.com/groupe1", "subtitle": "+0" },
       { "name": "Ariana", "link": "https://example.com/groupe2", "subtitle": "+0" },
       { "name": "Manouba", "link": "https://example.com/groupe3", "subtitle": "+0" },
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "Médenine", "link": "https://example.com/groupe23", "subtitle": "+0" },
       { "name": "Tataouine", "link": "https://example.com/groupe24", "subtitle": "+0" }
     ],
-    Équipement: [
+    Équipement industriel: [
       { "name": "Tunis", "link": "https://example.com/groupe1", "subtitle": "+0" },
       { "name": "Ariana", "link": "https://example.com/groupe2", "subtitle": "+0" },
       { "name": "Manouba", "link": "https://example.com/groupe3", "subtitle": "+0" },
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "Médenine", "link": "https://example.com/groupe23", "subtitle": "+0" },
       { "name": "Tataouine", "link": "https://example.com/groupe24", "subtitle": "+0" }
     ],
-Auto: [
+Auto & Moto: [
     { "name": "Tunis", "link": "https://example.com/groupe1", "subtitle": "+0" },
     { "name": "Ariana", "link": "https://example.com/groupe2", "subtitle": "+0" },
     { "name": "Manouba", "link": "https://example.com/groupe3", "subtitle": "+0" },
