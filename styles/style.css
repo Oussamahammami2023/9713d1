@@ -36,7 +36,63 @@ header {
     margin-left: auto;
     margin-right: 4px;
 }
-
+.container-sb {
+    padding: 14px 6px 0 6px; /* تحديث التباعد */
+    background-color: transparent;
+    border-radius: 4px; /* إضافة زاوية دائرية */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    margin: 0 auto; /* توسيط المحتوى */
+    max-width: 720px; /* تحديد أقصى عرض */
+    width: 50vw; /* تحديد عرض نسبي */
+}
+.search-bar {
+    display: flex;
+    justify-content: center; /* توسيط المحتوى */
+    align-items: center;
+    background-color: #FFF; /* خلفية بيضاء */
+    border-radius: 4px; /* إضافة زاوية دائرية للحافة */
+    padding: 0; /* إزالة التباعد */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2); /* إضافة ظل */
+}
+.search-input-container-sb {
+    display: flex;
+    align-items: center;
+    width: 100%; /* عرض كامل */
+}
+.search-input {
+    width: 66%; /* تحديد عرض المدخل */
+    padding: 12px;
+    border: 0;
+    border-radius: 4px; /* إضافة زاوية دائرية */
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    box-shadow: none; /* إزالة الظل */
+}
+.search-button {
+    padding: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.search-button svg {
+    width: 24px;
+    height: 24px;
+    fill: #212121;
+}
+.search-button:hover {
+    background-color: #e0e0e0; /* تغيير اللون عند التحويم */
+}
+/* إضافة استجابة لمستعرضات الجوال */
+@media all and (max-width: 480px) {  
+    .container-sb {
+        min-width: 200px;
+        width: 100%; /* تعديل العرض ليتناسب مع الشاشات الصغيرة */
+    }
 .unique-c-1-list {
     display: flex;
     overflow-x: auto;
