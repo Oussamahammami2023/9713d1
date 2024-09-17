@@ -324,7 +324,7 @@ body.no-scroll {
             min-width: 60px; /* Ensures consistent button width */
         }
         .icon {
-            font-size: 19px;
+            font-size: 17px;
             margin-bottom: 2px;
             flex-shrink: 0; /* Prevents icon from shrinking */
         }
@@ -348,7 +348,7 @@ body.no-scroll {
             text-align: center; /* Center-aligns text */
         }
         .svg-icon {
-            width: 19px;
+            width: 17px;
             height: 24px;
             margin-bottom: 2px;
             flex-shrink: 0; /* Prevents icon from shrinking */
