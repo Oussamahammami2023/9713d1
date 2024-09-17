@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
       { name: "Gabès", link: "https://example.com/groupe22", subtitle: "+0" },
       { name: "Médenine", link: "https://example.com/groupe23", subtitle: "+0" },
       { name: "Tataouine", link: "https://example.com/groupe24", subtitle: "+0" }
+   ],
      Électroniques: [
       { "name": "Tunis", "link": "https://example.com/groupe1", "subtitle": "+0" },
       { "name": "Ariana", "link": "https://example.com/groupe2", "subtitle": "+0" },
