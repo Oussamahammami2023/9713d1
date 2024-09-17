@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boutiques</title>
+  <!-- تحميل ملف CSS الخارجي -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- محتوى الصفحة -->
+  <header>
+    <div class="header-content">
+      <div class="search-title">TN-WORK</div>
+    </div>
+    <i class="fas fa-user account-icon"></i>
+  </header>
+  
+  <div class="container">
+    <div class="title">Abonné</div>
+    <div class="balance">0</div>
+  </div>
+
+  <div class="unique-c-1-list">
+    <a class="unique-c-1-item" data-group="E-commerce" href="https://boutiquestnwork.blogspot.com/?m=1">
+      <i class="fas fa-store"></i>
+      <span class="item-title">Boutiques</span>
+    </a>
+    <a class="unique-c-1-item" data-group="Rédaction" href="https://developpementtnwork.blogspot.com/?m=1">
+      <i class="fas fa-laptop-code"></i>
+      <span class="item-title">Développement</span>
+    </a>
+  </div>
+
+  <div class="group-container-1-2" id="groupContainer">
+    <div class="group-1-2" style="background-image: url('https://cdn.shopify.com/s/files/1/0717/2390/9335/files/IMG_20240909_223738.jpg?v=1725917891');"></div>
+  </div>
+
+  <div class="third-group-list">
+    <a class="third-group-item" data-popup="Vêtements">
+      <img src="https://cdn.shopify.com/s/files/1/0673/1232/0677/files/IMG_20240807_112813.jpg?v=1726363127" alt="Mode" />
+      <h4>Vêtements</h4>
+      <p class="third-group-subtitle">+0</p>
+    </a>
+    <a class="third-group-item" data-popup="Auto">
+      <img src="https://cdn.shopify.com/s/files/1/0717/2390/9335/files/6.jpg?v=1725782841" alt="Peintre" />
+      <h4>Auto & Moto</h4>
+      <p class="third-group-subtitle">+0</p>
+    </a>
+  </div>
+
+  <!-- نموذج النافذة المنبثقة -->
+  <div id="popup-template" class="popup" style="display: none;">
+    <div class="popup-content">
+      <span class="close-btn">×</span>
+      <h4 class="popup-title"></h4>
+      <div class="popup-group-list"></div>
+    </div>
+  </div>
+
+  <!-- تحميل ملف جافاسكريبت الخارجي -->
+  <script src="scripts.js"></script>
+</body>
+</html>
