@@ -10,43 +10,43 @@
 </head>
 <body>
   <!-- محتوى الصفحة -->
-   <div class="header-content">
-  <div class="search-title">TN-WORK</div>
-  <i class="fas fa-user account-icon"></i> <!-- أيقونة الحساب -->
-   </div>
-  </header>
+  <div class="header-content">
+    <div class="search-title">TN-WORK</div>
+    <i class="fas fa-user account-icon"></i> <!-- أيقونة الحساب -->
+  </div>
+  <header></header>
   <div class="container">
     <div class="title">Abonné</div>
     <div class="balance">0</div>
-</div>
+  </div>
   <div class="unique-c-1-list">
     <a class="unique-c-1-item" data-group="Boutiques" href="./index.html">
-<i class="fas fa-store"></i>
- <span class="item-title">Boutiques</span>
-       </a>
- <a class="unique-c-1-item" data-group="Restaurants.." href="./page/Restaurants.html">
+      <i class="fas fa-store"></i>
+      <span class="item-title">Boutiques</span>
+    </a>
+    <a class="unique-c-1-item" data-group="Restaurants.." href="./page/Restaurants.html">
       <i class="fas fa-utensils"></i>
-        <span class="item-title">Restaurants</span>
+      <span class="item-title">Restaurants</span>
     </a>
-        <a class="unique-c-1-item" data-group="Travaux" href="./page/Travaux.html">
+    <a class="unique-c-1-item" data-group="Travaux" href="./page/Travaux.html">
       <i class="fas fa-tools"></i>
-       <span class="item-title">Travaux</span>
+      <span class="item-title">Travaux</span>
     </a>
-      <a class="unique-c-1-item" data-group="Réservation" href="./page/Réservation.html">
-    <i class="fas fa-calendar-alt"></i> 
+    <a class="unique-c-1-item" data-group="Réservation" href="./page/Réservation.html">
+      <i class="fas fa-calendar-alt"></i> 
       <span class="item-title">Réservation</span>
     </a>
     <a class="unique-c-1-item" data-group="Éducation" href="./page/Éducation.html">
       <i class="fas fa-chalkboard-teacher"></i> 
-        <span class="item-title">Éducation</span>
+      <span class="item-title">Éducation</span>
     </a>
     <a class="unique-c-1-item" data-group="Design" href="./page/Design.html">
       <i class="fas fa-paint-brush"></i> 
-        <span class="item-title">Design</span>
+      <span class="item-title">Design</span>
     </a>
     <a class="unique-c-1-item" data-group="Développement" href="./page/Développement.html">
       <i class="fas fa-laptop-code"></i> 
-        <span class="item-title">Développement</span>
+      <span class="item-title">Développement</span>
     </a>
   </div>
 
@@ -57,8 +57,9 @@
     <div class="group-1-2" style="background-image: url('https://cdn.shopify.com/s/files/1/0717/2390/9335/files/IMG_20240909_224210.jpg?v=1725918237');"></div>
     <div class="group-1-2" style="background-image: url('https://cdn.shopify.com/s/files/1/0717/2390/9335/files/IMG_20240909_224154.jpg?v=1725918237');"></div>
   </div>
+
   <!-- القائمة الثالثة -->
-<div class="third-group-list">
+  <div class="third-group-list">
     <a class="third-group-item" data-popup="Vêtements">
       <img src="https://cdn.shopify.com/s/files/1/0673/1232/0677/files/IMG_20240807_112813.jpg?v=1726363127" alt="Mode" />
       <h4>Vêtements</h4>
@@ -79,7 +80,7 @@
       <h4>Meuble & Décoration</h4>
       <p class="third-group-subtitle">+0</p>
     </a>
-     <a class="third-group-item" data-popup="Électroménager">
+    <a class="third-group-item" data-popup="Électroménager">
       <img src="https://cdn.shopify.com/s/files/1/0673/1232/0677/files/OIP_5.jpg?v=1726362972" alt="Cuisine & Électroménager" />
       <h4>Cuisine & Électroménager</h4>
       <p class="third-group-subtitle">+0</p>
@@ -95,17 +96,51 @@
       <p class="third-group-subtitle">+0</p>
     </a>
   </div>
+
   <!-- نموذج نافذة منبثقة -->
-<div id="popup-template" class="popup" style="display: none;">
-  <div class="popup-content">
-    <span class="close-btn">×</span> <!-- استبدال &times; بالرمز × -->
-    <h4 class="popup-title"></h4>
-    <div class="popup-group-list">
-      <!-- محتوى نافذة منبثقة -->
+  <div id="popup-template" class="popup" style="display: none;">
+    <div class="popup-content">
+      <span class="close-btn">×</span> <!-- استبدال &times; بالرمز × -->
+      <h4 class="popup-title"></h4>
+      <div class="popup-group-list">
+        <!-- محتوى نافذة منبثقة -->
+      </div>
     </div>
   </div>
-</div>
+
+  <!-- أزرار مماثلة -->
+  <div class="menu">
+    <div class="button" onclick="handleClick('Accueil clicked')">
+      <i class="fas fa-home icon"></i>
+      <span class="label">Accueil</span>
+    </div>
+    <div class="button" onclick="handleClick('Sponsoring clicked')">
+      <i class="fas fa-handshake icon"></i>
+      <span class="label">Sponsoring</span>
+    </div>
+    <div class="button center-button" onclick="handleClick('Add new clicked')">
+      <i class="fas fa-plus icon"></i>
+    </div>
+    <div class="button" onclick="handleClick('Pro clicked')">
+      <i class="fas fa-crown icon"></i>
+      <span class="label">Pro</span>
+    </div>
+    <div class="button" onclick="handleClick('Aide clicked')">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="16" x2="12" y2="12"></line>
+        <line x1="12" y1="8" x2="12" y2="8"></line>
+      </svg>
+      <span class="label">Aide</span>
+    </div>
+  </div>
+
   <!-- تحميل ملف جافاسكريبت الخارجي -->
   <script src="./js/script.js"></script>
+  <script>
+    function handleClick(message) {
+      alert(message);
+    }
+  </script>
 </body>
 </html>
