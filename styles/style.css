@@ -36,47 +36,64 @@ header {
     margin-left: auto;
     margin-right: 4px;
 }
- .container-sb {
-      padding-left: 0.11cm;
-      padding-right: 0.1cm;
-      border-top-left-radius: 22px; /* إضافة زاوية دائرية للحافة العلوية اليسرى */
-      border-top-right-radius: 22px; /* إضافة زاوية دائرية للحافة العلوية اليمنى */
-      padding: 20px; /* إضافة بعض المسافة حول المحتوى */
+.container-sb {
+    padding: 14px 6px 0 6px; /* تحديث التباعد */
+    background-color: transparent;
+    border-radius: 4px; /* إضافة زاوية دائرية */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    margin: 0 auto; /* توسيط المحتوى */
+    max-width: 720px; /* تحديد أقصى عرض */
+    width: 50vw; /* تحديد عرض نسبي */
+}
+.search-bar {
+    display: flex;
+    justify-content: center; /* توسيط المحتوى */
+    align-items: center;
+    background-color: #FFF; /* خلفية بيضاء */
+    border-radius: 4px; /* إضافة زاوية دائرية للحافة */
+    padding: 0; /* إزالة التباعد */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2); /* إضافة ظل */
+}
+.search-input-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* عرض كامل */
+}
+.search-input {
+    width: 66%; /* تحديد عرض المدخل */
+    padding: 12px;
+    border: 0;
+    border-radius: 4px; /* إضافة زاوية دائرية */
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    box-shadow: none; /* إزالة الظل */
+}
+.search-button {
+    padding: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.search-button svg {
+    width: 24px;
+    height: 24px;
+    fill: #212121;
+}
+.search-button:hover {
+    background-color: #e0e0e0; /* تغيير اللون عند التحويم */
+}
+/* إضافة استجابة لمستعرضات الجوال */
+@media all and (max-width: 480px) {  
+    .container {
+        min-width: 200px;
+        width: 100%; /* تعديل العرض ليتناسب مع الشاشات الصغيرة */
     }
-    .search-bar {
-      display: flex;
-      justify-content: center; /* توسيط المحتوى */
-      align-items: center;
-    }
-    .search-input-container {
-      position: relative;
-      display: flex;
-    }
-    .search-input {
-      padding: 11px;
-      border-radius: 10px; /* إضافة زاوية دائرية للحافة */
-      border: 1px solid #ddd;
-      font-size: 14.2px;
-      width: 345px;
-    }
-    .search-button {
-      padding: 9px;
-      background-color: #3076E5;
-      border-radius: 10px; /* إضافة زاوية دائرية للحافة */
-      border: none;
-      color: #fff;
-      cursor: pointer;
-      margin-left: -15px;
-      width: 53px;
-    }
-    .search-button svg {
-      width: 30px;
-      height: 24px;
-      fill: #fff;
-    }
-    .search-button:hover {
-      background-color: #ffaa00;
-    }
+}
 .unique-c-1-list {
     display: flex;
     overflow-x: auto;
@@ -87,11 +104,9 @@ header {
     background-color: #fff;
     margin-top: -11px;
 }
-
 .unique-c-1-list::-webkit-scrollbar {
     display: none;
 }
-
 .unique-c-1-item {
     flex-shrink: 0;
     margin-right: 0.5rem;
@@ -104,7 +119,6 @@ header {
     background-color: #D1F801;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 .unique-c-1-item i {
     font-size: 17px;
     margin-left: -6px;
@@ -117,12 +131,10 @@ header {
     align-items: center;
     justify-content: center;
 }
-
 .unique-c-1-item span {
     font-size: 13px;
     font-weight: 700;
 }
-
 .group-container-1-2 {
     display: flex;
     overflow-x: auto;
@@ -132,15 +144,12 @@ header {
     flex-wrap: nowrap;
     align-items: center;
 }
-
 .group-container-1-2::-webkit-scrollbar {
     display: none;
 }
-
 .group-container-1-2 {
     scrollbar-width: none;
 }
-
 .group-1-2 {
     min-width: 216px;
     background-size: cover;
@@ -151,14 +160,12 @@ header {
     position: relative;
     margin-top: -10px;
 }
-
 .group-container {
     display: flex;
     overflow-x: auto;
     padding: 1rem 0;
     background-color: #eee;
 }
-
 .group-item {
     flex: 0 0 auto;
     background-color: #fff;
@@ -168,13 +175,11 @@ header {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-
 .container {
     max-width: 1600px;
     margin: 0 auto;
     padding: 1rem;
 }
-
 .third-group-list {
     display: block;
     padding: 8px 4px;
@@ -183,7 +188,6 @@ header {
     margin-top: 0px;
     overflow-y: auto;
 }
-
 .third-group-item {
     display: flex;
     align-items: center;
@@ -197,7 +201,6 @@ header {
     width: 100%;
     position: relative;
 }
-
 .third-group-item img {
     width: 81px;
     height: 71px;
@@ -205,7 +208,6 @@ header {
     overflow: hidden;
     margin-right: 15px;
 }
-
 .third-group-item h4 {
     font-size: 18.5px;
     font-weight: 650;
@@ -213,7 +215,6 @@ header {
     margin: 0;
     margin-left: -7px;
 }
-
 .third-group-item .third-group-subtitle {
     font-size: 14px;
     color: #888;
@@ -225,7 +226,6 @@ header {
     position: relative;
     padding-right: 27px;
 }
-
 .third-group-item .third-group-subtitle::after {
     content: "";
     display: block;
@@ -240,11 +240,9 @@ header {
     background-repeat: no-repeat;
     padding-left: 8px;
 }
-
 .no-scroll {
     overflow: hidden;
 }
-
 .popup {
     display: none;
     position: fixed;
@@ -259,17 +257,14 @@ header {
     animation: slide-up 0.3s forwards;
     overflow-y: auto;
 }
-
 .popup-content {
     padding: 0px;
     text-align: center;
 }
-
 .popup-title {
     font-size: 20px;
     font-weight: bold;
 }
-
 .close-btn {
     position: absolute;
     top: 10px;
@@ -279,12 +274,10 @@ header {
     font-weight: bold;
     cursor: pointer;
 }
-
 @keyframes slide-up {
     from { bottom: -50%; }
     to { bottom: 0; }
 }
-
 .popup-group-list {
     display: grid;
     grid-template-columns: 1fr;
@@ -293,7 +286,6 @@ header {
     margin: 0 auto;
     margin-bottom: 5px;
 }
-
 .popup-group-item {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -310,26 +302,22 @@ header {
     align-items: center;
     text-decoration: none;
 }
-
 .popup-group-name {
     font-size: 17.5px;
     font-weight: 500;
     text-align: left;
 }
-
 .popup-group-subtitle {
     font-size: 12px;
     font-weight: 500;
     color: gray;
     text-align: right;
 }
-
 body.no-scroll {
     overflow: hidden;
     position: fixed;
     width: 100%;
 }
-
 .button {
     display: flex;
     flex-direction: column;
@@ -344,16 +332,13 @@ body.no-scroll {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 .button:hover {
     background-color: #f0f0f0;
     color: #007bff;
 }
-
 .button i {
     font-size: 24px;
 }
-
 .button span {
     margin-top: 5px;
     font-size: 12px;
