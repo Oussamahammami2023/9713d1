@@ -92,7 +92,6 @@ header {
     .container-sb {
         min-width: 200px;
         width: 100%; /* تعديل العرض ليتناسب مع الشاشات الصغيرة */
-    }
 }
 .unique-c-1-list {
     display: flex;
