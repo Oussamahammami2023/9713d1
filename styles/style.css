@@ -36,27 +36,47 @@ header {
     margin-left: auto;
     margin-right: 4px;
 }
-
-.container {
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.title {
-    font-size: 13px;
-    color: #6c757d;
-    margin-bottom: 10px;
-}
-
-.balance {
-    font-size: 36px;
-    font-weight: bold;
-    color: #343a40;
-}
-
+ .container {
+      padding-left: 0.11cm;
+      padding-right: 0.1cm;
+      border-top-left-radius: 22px; /* إضافة زاوية دائرية للحافة العلوية اليسرى */
+      border-top-right-radius: 22px; /* إضافة زاوية دائرية للحافة العلوية اليمنى */
+      padding: 20px; /* إضافة بعض المسافة حول المحتوى */
+    }
+    .search-bar {
+      display: flex;
+      justify-content: center; /* توسيط المحتوى */
+      align-items: center;
+    }
+    .search-input-container {
+      position: relative;
+      display: flex;
+    }
+    .search-input {
+      padding: 11px;
+      border-radius: 10px; /* إضافة زاوية دائرية للحافة */
+      border: 1px solid #ddd;
+      font-size: 14.2px;
+      width: 345px;
+    }
+    .search-button {
+      padding: 9px;
+      background-color: #3076E5;
+      border-radius: 10px; /* إضافة زاوية دائرية للحافة */
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      margin-left: -15px;
+      width: 53px;
+    }
+    .search-button svg {
+      width: 30px;
+      height: 24px;
+      fill: #fff;
+    }
+    .search-button:hover {
+      background-color: #ffaa00;
+    }
 .unique-c-1-list {
     display: flex;
     overflow-x: auto;
