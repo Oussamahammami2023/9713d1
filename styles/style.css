@@ -310,29 +310,6 @@ body.no-scroll {
     width: 100%;
 }
 
-/* أنماط الأزرار المضافة */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #f7f7f7;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding: 8px;
-    background-color: #fff;
-    border-radius: 10px 10px 0 0;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
 .button {
     display: flex;
     flex-direction: column;
@@ -361,4 +338,4 @@ body {
     margin-top: 5px;
     font-size: 12px;
     font-weight: 600;
-}
+    }
