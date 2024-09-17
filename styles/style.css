@@ -8,7 +8,6 @@ body {
     header {
   background-color: #fff;
   color: #000;
-  text-align: left;
   padding: 1rem 0.3rem;
   display: flex;
   justify-content: space-between; /* توزيع العناصر بين اليسار واليمين */
@@ -18,8 +17,9 @@ body {
 
 .header-content {
   display: flex;
+  justify-content: space-between; /* توزيع العنوان والأيقونة */
   align-items: center;
-  flex-grow: 1; /* للسماح للعنوان بأخذ المساحة المتبقية */
+  width: 100%; /* عرض الحاوية كامل الصفحة */
 }
 
 .search-title {
@@ -32,7 +32,7 @@ body {
   font-size: 20px;
   cursor: pointer;
   margin-bottom: -3px;
-  margin-left: auto; /* يدفع الأيقونة إلى أقصى اليمين */
+  margin-left: auto; /* دفع الأيقونة إلى اليمين */
 }
    container {
          text-align: center;
