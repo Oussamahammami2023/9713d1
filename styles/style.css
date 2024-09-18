@@ -51,7 +51,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    padding: 17px 15px; /* المساحة الداخلية */
+    padding: 14px 15px; /* المساحة الداخلية */
     height: auto; /* الارتفاع يعتمد على المحتوى */
     min-height: 50px; /* حد أدنى للارتفاع */
 }
