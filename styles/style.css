@@ -33,24 +33,61 @@ body {
   cursor: pointer;
   margin-bottom: -3px;
   margin-left: auto; /* دفع الأيقونة إلى اليمين */
-      margin-right :4px;
+      margin-right :4px;}
+   .container-sb {
+    margin: 0;
+    padding: 14px 6px 0 6px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
-   .container-sb { margin:0; padding:14px 6px 0 6px; background-color:transparent; font-family: 'Roboto', sans-serif; overflow:hidden; }
-        #search-icon, #clear-icon { padding:12px; height:24px; vertical-align:middle; cursor:pointer; }
-        #clear-icon { visibility:hidden; }
-        #search-query {
-            width:250vw; min-width:480px; max-width:720px;
-            margin:0 auto; overflow:hidden; border:0; border-radius:4px; color: #212121; background-color:#FFF;
-            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
-            font-size:16px; line-height:24px;
-        }
-        #search-query-input {
-            min-width:104px; width:66%; height:24px; font-size:16px; font-stretch:normal; letter-spacing:normal; line-height:24px;
-            border:0; color:#000; background-color:transparent; cursor:text; text-align:start; vertical-align:middle;
-        }
-        @media all and (max-width: 480px) {  
-            #search-query { min-width:200px; width:100%; }
-        }
+
+#search-icon, #clear-icon {
+    padding: 12px;
+    height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#clear-icon {
+    visibility: hidden;
+}
+
+#search-query {
+    width: 50vw;
+    min-width: 480px;
+    max-width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 0;
+    border-radius: 4px;
+    color: #212121;
+    background-color: #FFF;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between; /* توزيع العناصر على طرفي الحاوية */
+    align-items: center; /* التأكد من توسيط العناصر عموديًا */
+}
+
+#search-query-input {
+    flex-grow: 1; /* جعل حقل الإدخال يأخذ المساحة المتاحة */
+    height: 24px;
+    font-size: 16px;
+    border: 0;
+    color: #000;
+    background-color: transparent;
+    cursor: text;
+    text-align: start;
+    vertical-align: middle;
+}
+
+@media all and (max-width: 480px) {  
+    #search-query {
+        min-width: 200px;
+        width: 100%;
+    }
    .unique-c-1-list {
 display: flex;
 overflow-x: auto;
