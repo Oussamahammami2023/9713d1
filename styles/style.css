@@ -51,6 +51,9 @@ body {
     display: flex;
     align-items: center;
     position: relative;
+    padding: 10px 15px; /* المساحة الداخلية */
+    height: auto; /* الارتفاع يعتمد على المحتوى */
+    min-height: 50px; /* حد أدنى للارتفاع */
 }
 
 #search-query-input {
